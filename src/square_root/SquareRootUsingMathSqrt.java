@@ -1,6 +1,6 @@
-package src.square_root;
+package square_root;
 
-public class SqaureRootUsingMathSqrt {
+public class SquareRootUsingMathSqrt {
     public static void main(String[] args) {
         double X = 9;
 

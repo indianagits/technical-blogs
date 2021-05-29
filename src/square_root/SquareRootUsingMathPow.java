@@ -1,4 +1,4 @@
-package src.square_root;
+package square_root;
 
 public class SquareRootUsingMathPow {
     public static void main(String[] args) {

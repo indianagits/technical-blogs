@@ -1,4 +1,4 @@
-package src.square;
+package square;
 
 public class SquareUsingMathPow {
     public static void main(String[] args) {
