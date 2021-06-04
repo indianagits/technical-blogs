@@ -30,7 +30,7 @@ public class SquareRootUsingBinarySearch {
         double mid = (low + high) / 2;
         double p = mid * mid;
         // uncomment below line to see how we reach the final answer
-        // System.out.println(mid);
+        System.out.println(low + " " + high + " " + mid + " " + p);
 
         if (p == X || (Math.abs(X - p) < PRECISION)) {
             return mid;
