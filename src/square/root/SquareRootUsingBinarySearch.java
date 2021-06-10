@@ -1,4 +1,4 @@
-package square_root;
+package square.root;
 
 public class SquareRootUsingBinarySearch {
     private static double PRECISION = 0.000001;
