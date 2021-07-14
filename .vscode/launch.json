@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch BinarySearchTree",
+            "request": "launch",
+            "mainClass": "search.BinarySearchTree",
+            "projectName": "technical-blogs_3760416a"
+        },
+        {
+            "type": "java",
+            "name": "Launch BST",
+            "request": "launch",
+            "mainClass": "search.BST",
+            "projectName": "technical-blogs_3760416a"
+        },
+        {
+            "type": "java",
             "name": "Launch CountingSort",
             "request": "launch",
             "mainClass": "sort.CountingSort",
