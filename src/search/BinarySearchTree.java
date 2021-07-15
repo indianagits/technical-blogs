@@ -11,7 +11,6 @@ class Node {
 }
 
 class BST {
-
     private Node root;
 
     public void insert(int key) {
@@ -45,6 +44,7 @@ class BST {
     }
 
     public void inOrder() {
+        System.out.print("The inOrder traversal is: ");
         inOrder(root);
         System.out.println();
     }
@@ -59,6 +59,7 @@ class BST {
     }
 
     public void preOrder() {
+        System.out.print("The preOrder traversal is: ");
         preOrder(root);
         System.out.println();
     }
@@ -73,6 +74,7 @@ class BST {
     }
 
     public void postOrder() {
+        System.out.print("The postOrder traversal is: ");
         postOrder(root);
         System.out.println();
     }
@@ -97,13 +99,8 @@ public class BinarySearchTree {
         bst.insert(18);
         bst.insert(25);
 
-        System.out.println("The inOrder traversal is: ");
         bst.inOrder();
-
-        System.out.println("The preOrder traversal is: ");
         bst.preOrder();
-
-        System.out.println("The postOrder traversal is: ");
         bst.postOrder();
 
         search(bst, 18);
