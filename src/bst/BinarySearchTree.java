@@ -1,4 +1,4 @@
-package search;
+package bst;
 
 class Node {
     int key;
@@ -93,18 +93,19 @@ public class BinarySearchTree {
     public static void main(String[] args) {
         BST bst = new BST();
         bst.insert(10);
-        bst.insert(20);
+        bst.insert(15);
         bst.insert(5);
-        bst.insert(7);
+        bst.insert(8);
         bst.insert(18);
-        bst.insert(25);
+        bst.insert(12);
+        bst.insert(10);
 
-        bst.inOrder();
         bst.preOrder();
+        bst.inOrder();
         bst.postOrder();
 
-        search(bst, 18);
-        search(bst, 22);
+        search(bst, 12);
+        search(bst, 9);
     }
 
     private static void search(BST bst, int key) {

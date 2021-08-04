@@ -1,5 +1,14 @@
 {
     "java.project.sourcePaths": [
         "src"
-    ]
+    ],
+    "files.associations": {
+        "ios": "cpp",
+        "__node_handle": "cpp",
+        "iostream": "cpp",
+        "functional": "cpp",
+        "string": "cpp",
+        "unordered_map": "cpp",
+        "vector": "cpp"
+    }
 }
