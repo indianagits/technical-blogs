@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Tries",
+            "request": "launch",
+            "mainClass": "trie.Tries",
+            "projectName": "technical-blogs_3760416a"
+        },
+        {
+            "type": "java",
             "name": "Launch BinarySearchTree",
             "request": "launch",
             "mainClass": "search.BinarySearchTree",
